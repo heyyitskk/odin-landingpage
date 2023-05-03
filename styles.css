@@ -2,10 +2,11 @@ body {
     font-family: 'Roboto', 'sans-serif';
     display: flex; 
     margin: 0;
+    flex-direction: column;
 }
 
 .first {
-    padding: 0px 300px;
+    padding: 0px 250px;
     background-color: #1f2937;
     color: white;
 }
@@ -77,6 +78,12 @@ ul {
     color: #e5e7eb;
 }
 
+.info p {
+    font-size: 16px;
+    color: darkgray;
+    margin: 5px;
+}
+
 .hero button {
     background-color: #3882f6;
     color: white;
@@ -85,4 +92,42 @@ ul {
     font-family: 'roboto';
     border: 0px;
     font-weight: bold;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 300px;
+}
+
+.second h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 60px;
+}
+
+.second .sri {
+    display: flex;
+    gap: 60px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.second .rsq {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.second .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 175px;
 }
