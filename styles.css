@@ -132,7 +132,7 @@ ul {
 }
 
 .third {
-    padding: 100px 300px;
+    padding: 70px 300px;
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: 26px;
@@ -142,4 +142,51 @@ ul {
 .third p {
     text-align: right;
     font-style: normal;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .cta {
+    display: flex;
+    margin: 80px 50px;
+    gap: 50px;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 50px 150px;
+    border-radius: 8px;
+}
+
+.fourth button {
+    flex-shrink: 0;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 8px;
+    font-family: 'roboto';
+    border: 3px solid white;
+    font-weight: bold;
+}
+
+.fourth p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.fourth h3 {
+    font-size: 21px;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 200px;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
