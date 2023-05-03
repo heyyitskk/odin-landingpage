@@ -11,14 +11,11 @@ body {
     color: white;
 }
 
-ul {
-    list-style: none;
-}
 
 .bhead {
     display: flex;
     padding: 100px 0px;
-    gap: 50px;
+    gap: 80px;
 }
 
 .header {
@@ -54,10 +51,11 @@ img {
 
 ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .hero h1 {
@@ -80,7 +78,7 @@ ul {
 
 .info p {
     font-size: 16px;
-    color: darkgray;
+    color: rgb(81, 81, 81);
     margin: 5px;
 }
 
@@ -99,6 +97,7 @@ ul {
     align-items: center;
     flex-direction: column;
     padding: 0px 300px;
+    margin-bottom: 100px;
 }
 
 .second h2 {
@@ -130,4 +129,17 @@ ul {
     align-items: center;
     text-align: center;
     flex-basis: 175px;
+}
+
+.third {
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.third p {
+    text-align: right;
+    font-style: normal;
 }
