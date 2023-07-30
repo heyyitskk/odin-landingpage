@@ -1,21 +1,22 @@
 body {
     font-family: 'Roboto', 'sans-serif';
-    display: flex; 
+    display: flex;
     margin: 0;
     flex-direction: column;
 }
 
 .first {
-    padding: 0px 250px;
+    padding: 0px 15%;
     background-color: #1f2937;
     color: white;
+    flex: 1 1 auto;
 }
 
 
 .bhead {
     display: flex;
     padding: 100px 0px;
-    gap: 150px;
+    gap: 80px;
 }
 
 .header {
@@ -31,10 +32,11 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    flex: .5 4 auto;
 }
 
 .image {
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     align-self: center;
     width: 500px;
     height: 250px;
